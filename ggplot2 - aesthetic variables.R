@@ -22,3 +22,8 @@ ggplot(data=penguins) + geom_point(mapping=aes(x=flipper_length_mm,y=body_mass_g
 
 #change all to purple
 ggplot(data=penguins) + geom_point(mapping=aes(x=flipper_length_mm,y=body_mass_g),color="purple")
+
+
+
+#another way to write the ggplot
+ggplot(data=penguins, aes(x=flipper_length_mm,y=body_mass_g,shape=species,color=species)) + geom_point()
