@@ -5,12 +5,30 @@ date: "2024-05-15"
 output: html_document
 ---
 
+^^^ YAML Header Section ^^^
+YAML stands for Yet Another Markup Language or YAML Ain't Markup Language
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-# Penguin Plots
+# Notes about formatting - 
 
+## Smaller
+### Even Smaller
+#### Even Smaller
+
+Format for links - <https://link.com>  
+Two spaces after a line for line break.  
+Format for bold - **bold text here**.  
+cntrl + alt + i - shortcut for code block.  
+```{r}
+#example code block...
+```
+
+
+
+# Penguin Plots
 ## Install/Load Packages
 ```{r}
 library(tidyverse)
