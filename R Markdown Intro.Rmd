@@ -1,0 +1,27 @@
+---
+title: "R Markdown Intro"
+author: "Jonathan"
+date: "2024-05-15"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Penguin Plots
+
+## Install/Load Packages
+```{r}
+library(tidyverse)
+library(ggplot2)
+library(palmerpenguins)
+```
+
+## Exmaple plot
+```{r}
+ggplot(data=penguins)+
+  geom_point(mapping=aes(x=flipper_length_mm,y=body_mass_g, color = species)) + 
+  facet_grid(sex~species)
+```
+
