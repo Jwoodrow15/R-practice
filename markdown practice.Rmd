@@ -1,0 +1,24 @@
+---
+title: "r markdown practice"
+author: "Jonathan"
+date: "2024-05-16"
+output: html_document
+---
+
+```{r ggplot for penguin data}
+library(ggplot2)
+
+library(palmerpenguins)
+
+data(penguins)
+
+View(penguins)
+```
+
+
+```{r ggplot for penguin data visualization}
+ggplot(data = penguins) +
+
+  geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g))
+```
+
