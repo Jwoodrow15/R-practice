@@ -1,0 +1,15 @@
+---
+title: "ggplot_hook"
+author: "Jonathan"
+date: "2024-05-16"
+output: html_document
+---
+
+## Setting up my enviroment
+Notes: setting up my R environment by loading the 'tidyverse' and 'palmerpenguins' packages
+
+```{r loading packages}
+library(tidyverse)
+library(palmerpenguins)
+```
+
