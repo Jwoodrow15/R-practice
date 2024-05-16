@@ -19,6 +19,7 @@ knitr::opts_chunk$set(echo = TRUE)
 #### Even Smaller
 
 Format for links - <https://link.com>  
+Linking text - [click here](https://link.com)  
 Two spaces after a line for line break.  
 Format for bold - **bold text here**.  
 cntrl + alt + i - shortcut for code block.  
@@ -26,7 +27,12 @@ cntrl + alt + i - shortcut for code block.
 #example code block...
 ```
 
+* Bullet points with an asterisk
+* Bullet points with an asterisk
+* Bullet points with an asterisk
 
+Embed images -  
+![Plot this way](https://d88c6a2c0ac5460fba6c4b9d62b4e6e2.app.posit.cloud/file_show?path=%2Fcloud%2Fproject%2Fhotel_booking_chart.png)
 
 # Penguin Plots
 ## Install/Load Packages
